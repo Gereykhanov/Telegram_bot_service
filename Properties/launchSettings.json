@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "TelegramServiceBot": {
+      "commandName": "Project"
+    }
+  }
+}
