@@ -4,14 +4,12 @@ using Telegram.Bot.Exceptions;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Extensions.Polling;
 
-
 var botClient = new TelegramBotClient("5279723562:AAGTpy0zQBrCReJv3Io8u-kaQmObsji0coA");
 
 var meBotState = await botClient.GetMeAsync();
 
 var cts = new CancellationTokenSource();
 var cancellationToken = cts.Token;
-
 
 var receiverOptions = new ReceiverOptions
 {

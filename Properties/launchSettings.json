@@ -1,7 +1,10 @@
 {
   "profiles": {
     "TelegramServiceBot": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "remoteDebugEnabled": true,
+      "authenticationMode": "None"
     }
   }
 }
+
